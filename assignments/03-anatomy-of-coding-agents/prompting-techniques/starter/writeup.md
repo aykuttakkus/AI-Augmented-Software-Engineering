@@ -137,6 +137,8 @@ Use the result returned by the tool to give the customer a short and clear answe
 
 **Tool result:** `shipped, arriving Friday`
 
+**Output:** `Order 4412 has shipped and is arriving Friday.`
+
 ### What I learned
 
 The model could make an incorrect assumption or guess, while using the tool makes the order status certain. If the tool and `order_id` descriptions were not clear, the model might not understand when to use the tool or could send the wrong information instead of the order number from the customer's message.
