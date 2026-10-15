@@ -48,7 +48,8 @@ Output rules:
 
 ### Sample input and output
 
-**Input:** `My card was charged twice for order 4412.`  
+**Input:** `My card was charged twice for order 4412.`
+
 **Output:** `billing`
 
 ### What I learned
@@ -132,7 +133,8 @@ Use the result returned by the tool to give the customer a short and clear answe
 
 **Input:** `Hi, can you check on order 4412 for me?`
 
-**Tool call:** `get_order_status(order_id="4412")`  
+**Tool call:** `get_order_status(order_id="4412")`
+
 **Tool result:** `shipped, arriving Friday`
 
 ### What I learned
@@ -165,12 +167,16 @@ The retriever normalizes the words in the question and help-center chunks, remov
 
 ### Sample input and output
 
-**Input:** `How long do I have to return an item?`  
-**Retrieved context:** `Returns: You may return most items within 30 days of delivery for a full refund.`  
+**Input:** `How long do I have to return an item?`
+
+**Retrieved context:** `Returns: You may return most items within 30 days of delivery for a full refund.`
+
 **Output:** `You may return most items within 30 days of delivery for a full refund.`
 
-**Unsupported input:** `What's your CEO's home address?`  
-**Retrieved context:** Empty  
+**Unsupported input:** `What's your CEO's home address?`
+
+**Retrieved context:** Empty
+
 **Output:** `I do not know based on the provided information.`
 
 ### What I learned
